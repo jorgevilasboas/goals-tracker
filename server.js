@@ -1,5 +1,8 @@
-// server.js
+const express = require('express'),
+      app = express(),
+      port = Number(process.env.PORT || 8080);
 
+<<<<<<< HEAD
 // DEPENDENCIES
 // ===============================================
 
@@ -119,4 +122,12 @@ app.get('/', function(req, res) {
 
 app.listen(port, function() {
   console.log('Listening on port ' + port);
+=======
+app.get('/', (req,res) =>{
+  res.send('Our first route is working.:)');	
+});
+
+app.listen(port, ()=>{
+	console.log('Listening on port' + port);
+>>>>>>> parent of 23f6a44... first commit
 });
