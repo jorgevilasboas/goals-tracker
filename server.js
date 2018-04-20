@@ -21,7 +21,7 @@ var db = new Datastore({
 // Let us check that we can save to the database.
 // Define a goal.
 var goal = {
-  description: 'Do 10 minutes meditation every day',
+  description: 'Do 20 minutes meditation every day',
 };
 
 // Save this goal to the database.
